@@ -62,7 +62,7 @@ function Subtotal() {
             
             {user?
             (
-                <a href = "https://rzp.io/l/yw0CZkdc" className='subtotallink'>
+                <a href = "razorpayPaymentPageLink" className='subtotallink'>
                     <button> Proceed to checkout </button>
                 </a>
                 
