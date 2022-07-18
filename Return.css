@@ -1,0 +1,38 @@
+.returnorders
+{
+    margin-top: 50px;
+}
+
+.returnorders__box
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.returnorders__box > div>button
+{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+
+.returnorders__box__inside > a > button
+{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}

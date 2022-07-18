@@ -1,0 +1,29 @@
+.home__image {
+  object-fit: contain;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.home__image__div {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  -webkit-mask-image: linear-gradient(
+    to top,
+    transparent 1%,
+    rgba(0, 0, 0, 0.972),
+    rgba(0, 0, 0) 100%
+  );
+}
+
+.products__div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15px;
+  flex-wrap: wrap;
+}
+
+.home {
+  background-color: #EBEDED;
+}

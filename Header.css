@@ -1,0 +1,144 @@
+.header
+{ 
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  background-color: #131a21;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header3
+{
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #22303E;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header__logo {
+  position: sticky;
+  object-fit: contain;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.header__link {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header__delivery__address {
+  display: flex;
+}
+
+.header__deliverto {
+  margin-left: 23px;
+}
+
+.header__searchInput {
+  height: 35px;
+  /* z-index: 1; */
+  margin-left: 0px;
+  border: none;
+  width: 100%;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  flex: 1;
+}
+
+.header__option {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link__option {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.searchIcon {
+  background-color: #f3a847;
+  padding: 6.5px;
+}
+
+.header__link__each__options {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  position: sticky;
+}
+
+.header__link__each__options__text1 {
+  font-size: 15px;
+  display: flex;
+}
+
+.header__link__each__options__text2 {
+  font-size: 17x;
+  font-weight: 800;
+}
+
+.header__basket {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.shopping__basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header3>a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.input__forsignIn
+{
+  height: 20px;
+  width: 98%;
+}
+
+.loginInfo__signUp
+{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
